@@ -1,0 +1,46 @@
+
+    .box{
+        display: inline-block;
+        height: 400px;
+        width: 400px;
+        background-color: rgb(100, 193, 193);
+        margin: 4px;
+       
+        
+
+    }
+    .box:hover{
+        box-shadow: -10px -20px 20px 10px rgb(46, 127, 85) ;
+
+    }
+    
+    .parent{
+        display: flex;
+        justify-content: space-between;
+    
+
+        */flex-direction: column-reverse;*/
+ 
+        
+    
+    }
+    #box1{
+        background-color: antiquewhite;
+        /*flex: 1;*/
+        /*order: 3;*/
+    }
+    #box2{
+        background-color: rgb(198, 82, 82);
+       /* flex: 1;*/
+       /* order: 3;*/
+    }
+    #box3{
+        background-color: cadetblue;
+        /*flex: 1;*/
+        /*order: 3;*/
+    }
+
+  
+       
+
+  
